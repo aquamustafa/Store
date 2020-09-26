@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    app:cardCornerRadius="16dp"
+    android:backgroundTint="#FAF8F8"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+ <RelativeLayout
+
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:paddingBottom="16dp"
+    android:layout_margin="8dp"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+     android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OrderNo:"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:id="@+id/orderid_order_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#DSFDSFSDFSDFSDFDSF"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/textView7"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.076" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:text="State:"
+
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/orderid_order_item"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/state_order_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accepted"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@id/text"
+        android:layout_below="@id/orderid_order_item"
+        android:textColor="#5AE320"
+        android:textSize="16sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.027"
+        app:layout_constraintStart_toEndOf="@+id/text"
+        app:layout_constraintTop_toTopOf="@+id/text"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

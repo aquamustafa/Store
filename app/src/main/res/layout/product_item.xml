@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+    android:elevation="20dp"
+    android:layout_margin="10dp"
+
+    >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="8dp"
+            >
+
+            <ImageView
+                android:id="@+id/product_image_item"
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:src="@drawable/shirtssssssss"
+                />
+
+            <TextView
+                android:lines="2"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:id="@+id/prdouct_name_item"
+                android:layout_marginTop="8dp"
+                 android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text="sports shoes addids, for me"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_gravity="center_horizontal"
+                />
+
+
+
+            <TextView
+                android:layout_marginStart="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="45 egp"
+                android:id="@+id/prdouct_price_item"
+                android:layout_marginEnd="8dp"
+                android:textColor="#253BB6"
+                android:textSize="14sp"
+                android:layout_marginBottom="4dp"
+                android:layout_gravity="center_horizontal"
+                />
+     <!--   <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp">
+
+            <RatingBar
+                android:id="@+id/product_ratingbar_item"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:rating="4"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                />
+
+
+            <TextView
+             android:id="@+id/Ratings_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(88)"
+                android:textSize="10sp"
+                android:layout_gravity="start"
+                />
+-->
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
